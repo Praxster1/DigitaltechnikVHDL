@@ -1,7 +1,3 @@
-
-library ieee;
-use ieee.std_logic_1164.all;
-
 -- insert entity siebensegment here:
 -- ports: sw   - input  of type std_ulogic_vector(aa downto 0)
 -- 7-segment-display-units:
@@ -29,3 +25,25 @@ use ieee.std_logic_1164.all;
   -- consider that hex-output-signals... are low active
   -- unused hex-ports shall be turned off (hint: use hex7 <= (others => ...)
   
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity siebensegment is
+  port (
+    sw: in std_ulogic_vector(15 downto 0);
+    ledg: std_ulogic_vector(6 downto 0);
+
+    hex1: out std_ulogic_vector(6 downto 0);
+    hex2: out std_ulogic_vector(6 downto 0);
+    hex3: out std_ulogic_vector(6 downto 0);
+    hex4: out std_ulogic_vector(6 downto 0);
+    hex5: out std_ulogic_vector(6 downto 0);
+    hex6: out std_ulogic_vector(6 downto 0);
+    hex7: out std_ulogic_vector(6 downto 0)
+  );
+end entity;
+architecture struc of siebensegment is
+begin
+  
+end architecture;
