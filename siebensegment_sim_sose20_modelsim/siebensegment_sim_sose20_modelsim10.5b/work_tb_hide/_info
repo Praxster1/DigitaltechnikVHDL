@@ -1,0 +1,107 @@
+m255
+K3
+z0
+13
+cModel Technology
+dC:\Users\DirkRabe\Documents\FH\Lehre\Digitaltechnik\Praktikum\altera\Projects\siebensegment_sim_lsg_sose20
+Eone_digit_back
+w0
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+d.
+Z2 8nofile
+Z3 Fnofile
+l0
+L5
+VJ`G[LY6A8CL2L5]a:KC?_2
+!s100 _A59zP;IV^cFk^CViDkU63
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1588014328
+!i113 1
+Z6 o-nodebug -work work_tb_hide
+Z7 tExplicit 1 CvgOpt 0
+Artl
+R0
+R1
+DEx4 work 14 one_digit_back 0 22 J`G[LY6A8CL2L5]a:KC?_2
+l38
+L36
+VZW9K5io9k_CazVVH^<DnZ1
+!s100 zc`KZSNDf6b9QzUE=Kc1j0
+R4
+32
+R5
+!i113 1
+R6
+R7
+Eone_digit_tb_hide
+w0
+Z8 DPx17 std_developerskit 9 std_iopak 0 22 TIEH2DXm]ZmCF5gcNZM2b2
+Z9 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+R1
+d.
+R2
+R3
+l0
+L31
+V3dBk>?]Z7WU`88fBB5kH[3
+!s100 IBnXN?d]1TAIM7J5Q]SN73
+R4
+32
+R5
+!i113 1
+R6
+R7
+Abeh
+R8
+R9
+R0
+R1
+DEx4 work 17 one_digit_tb_hide 0 22 3dBk>?]Z7WU`88fBB5kH[3
+l52
+L40
+VCDU9j>:z_>CMF?eKX3RkV3
+!s100 QC8z0GR=ESkQlAk1=>fNl2
+R4
+32
+R5
+!i113 1
+R6
+R7
+Esiebensegment_tb_hide
+w0
+R8
+R9
+R0
+R1
+d.
+R2
+R3
+l0
+L31
+VUH]@I6U;K>>a_RUGDWzCF2
+!s100 dYPQm4jRF=c@[II_XHfJ:2
+R4
+32
+R5
+!i113 1
+R6
+R7
+Abeh
+R8
+R9
+R0
+R1
+Z10 DEx4 work 21 siebensegment_tb_hide 0 22 UH]@I6U;K>>a_RUGDWzCF2
+l60
+L49
+Z11 VYFE]4NVY7Q[?CoUFI_gkO0
+Z12 !s100 mMaz_H2WgTHRo`QHL6EXo3
+R4
+32
+R5
+!i113 1
+R6
+R7

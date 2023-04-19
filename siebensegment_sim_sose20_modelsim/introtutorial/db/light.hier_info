@@ -1,0 +1,13 @@
+|light
+sw[0] => light_core:light_core_1.x1
+sw[1] => light_core:light_core_1.x2
+ledg0 <= light_core:light_core_1.f
+ledr0 <= light_core:light_core_1.f
+
+
+|light|light_core:light_core_1
+x1 => light_p.IN0
+x2 => light_p.IN1
+f <= light_p.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,91 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity test is
+
+  port (
+    in1_i : in std_ulogic);
+
+end entity test;
+
+
+
+entity light_core is
+
+  port (
+    x1, x2 : in	 std_logic;
+    f	   : out std_logic);
+
+end light_core;
+
+architecture LogicFunction of light_core is
+
+begin  -- LogicFunction
+
+  -- f <= x1 xor x2;
+
+  -- purpose: selbe Funktion wie obige auskommentierte Signalzuweisung fuer f
+  -- type   : combinational
+  -- inputs : x1, x2
+  -- outputs: f
+  light_p : process (x1, x2)
+  begin	 -- process light_p
+    if x1 = x2 then
+      f <= '0';
+    else
+      f <= '1';
+    end if;
+  end process light_p;
+
+end LogicFunction;
+
+-------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity light is
+  port (
+    sw	  : in	std_ulogic_vector(1 downto 0);
+    ledg0 : out std_ulogic;
+    ledr0 : out std_ulogic);
+end light;
+
+architecture struc of light is
+  signal my_f_signal : std_ulogic;
+  component light_core is
+    port (
+      x1, x2 : in  std_logic;
+      f	     : out std_logic); 
+  end component light_core;
+  component light_core
+    port (
+      component light_core is
+	port (
+	  x1, x2 : in  std_logic;
+	  f	 : out std_logic); 
+      end component light_core;x1, x2 : in  std_logic;
+      f	     : out std_logic);
+  end component;
+
+  component light_core is
+    port (
+      x1, x2 : in  std_logic;
+      f	     : out std_logic);
+  end component light_core;
+  
+
+begin  -- struc
+  light_core_2: light_core
+    port map (
+      x1 => x1,
+      x2 => x2,
+      f	 => f);
+
+  light_core_1 : light_core
+    port map (
+      x1 => sw(0),
+      x2 => sw(1),
+      f	 => my_f_signal);
+  ledg0 <= my_f_signal;
+  ledr0 <= not my_f_signal;
+end struc;

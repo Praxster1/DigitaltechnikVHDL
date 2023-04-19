@@ -1,0 +1,38 @@
+siebensegment.vhd {0 {vcom -work work -2002 -explicit C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/siebensegment.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/siebensegment.vhd(32): near "EOF": syntax error
+
+} {6.0 7.0} {}} one_digit.vhd {0 {vcom -work work -2002 -explicit C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/one_digit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/one_digit.vhd(54): near "EOF": syntax error
+
+} {6.0 7.0} {}} siebensegment_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/siebensegment_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity siebensegment_tb
+-- Compiling architecture beh of siebensegment_tb
+
+} {} {}} one_digit_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/one_digit_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity one_digit_tb
+-- Compiling architecture tb1 of one_digit_tb
+-- Compiling configuration one_digit_tb_tb1_cfg
+-- Loading entity one_digit_tb
+-- Loading architecture tb1 of one_digit_tb
+-- Loading package NUMERIC_STD
+-- Loading package std_iopak
+-- Loading entity one_digit_tb_hide
+
+} {} {}}

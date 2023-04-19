@@ -1,0 +1,103 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DirkRabe\Documents\FH\Lehre\Digitaltechnik\Praktikum\altera\Projects\siebensegment_sim_lsg_sose20
+Eone_digit_tb
+Z1 w1587909456
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\DirkRabe\Documents\FH\Lehre\Digitaltechnik\Praktikum\altera\Projects\siebensegment_sim_sose20
+Z5 8C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/one_digit_tb.vhd
+Z6 FC:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/one_digit_tb.vhd
+l0
+L28
+VL2<]7;10Uc0a36`<@nM5E0
+!s100 PVCDkEO==`MPgGUkjYbgZ2
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1587912231.305000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/one_digit_tb.vhd|
+Z10 !s107 C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/one_digit_tb.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Atb1
+R2
+R3
+Z13 DEx4 work 12 one_digit_tb 0 22 L2<]7;10Uc0a36`<@nM5E0
+l54
+L34
+Z14 V07GhMEB:3SX=[kXW5YS=81
+Z15 !s100 Qk5o=i<270CFoi7ocYocF2
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Cone_digit_tb_tb1_cfg
+atb1
+eone_digit_tb
+Z16 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z17 DPx17 std_developerskit 9 std_iopak 0 22 6HXb]gHTk_K7=l7_K:zRF0
+DEx12 work_tb_hide 17 one_digit_tb_hide 0 22 1@:^:Nn>eL@:PdT1L9M:V3
+DAx4 work 12 one_digit_tb 3 tb1 22 07GhMEB:3SX=[kXW5YS=81
+R2
+R3
+R13
+R1
+R4
+R5
+R6
+l0
+L75
+V9MGY_8]S]^k:l_LfQ3n473
+!s100 Z8P=7V@Xf6bgk_6^7fjH:0
+R7
+32
+!i10b 0
+R8
+R9
+R10
+R11
+R12
+Esiebensegment_tb
+Z18 w1587907707
+R16
+R2
+R3
+R4
+Z19 8C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/siebensegment_tb.vhd
+Z20 FC:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/siebensegment_tb.vhd
+l0
+L29
+VTm_mHB^d;Qe0E7CJB7NAO1
+R7
+32
+Z21 !s108 1587912231.159000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/siebensegment_tb.vhd|
+Z23 !s107 C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20/siebensegment_tb.vhd|
+R11
+R12
+!s100 B`[EX@<Ck^XW8j4fBczo93
+!i10b 1
+Abeh
+R16
+R2
+R3
+DEx4 work 16 siebensegment_tb 0 22 Tm_mHB^d;Qe0E7CJB7NAO1
+l75
+L34
+V4Fh;DA1fQ>2XEHRYz:KmW2
+!s100 UgeK;B4SWe?9EXF_XGUCW1
+R7
+32
+R21
+R22
+R23
+R11
+R12
+!i10b 1

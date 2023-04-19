@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+-- Title      : Testbench for design "light"
+-- Project    : 
+-------------------------------------------------------------------------------
+-- File       : light_tb.vhd
+-- Author     :   <DirkRabe@DESKTOP-M34Q0CQ>
+-- Company    : 
+-- Created    : 2020-04-26
+-- Last update: 2020-04-26
+-- Platform   : 
+-- Standard   : VHDL'93/02
+-------------------------------------------------------------------------------
+-- Description: 
+-------------------------------------------------------------------------------
+-- Copyright (c) 2020 
+-------------------------------------------------------------------------------
+-- Revisions  :
+-- Date        Version  Author  Description
+-- 2020-04-26  1.0      DirkRabe	Created
+-------------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+-------------------------------------------------------------------------------
+
+entity light_tb is
+
+end entity light_tb;
+
+-------------------------------------------------------------------------------
+
+architecture tb of light_tb is
+
+  -- component ports
+  signal sw    : std_ulogic_vector(1 downto 0);
+  signal ledg0 : std_ulogic;
+  signal ledr0 : std_ulogic;
+
+  -- clock
+  signal Clk : std_logic := '1';
+
+begin  -- architecture tb
+
+  -- component instantiation
+  DUT: entity work.light
+    port map (
+      sw    => sw,
+      ledg0 => ledg0,
+      ledr0 => ledr0);
+
+  -- clock generation
+  Clk <= not Clk after 10 ns;
+
+  -- waveform generation
+  WaveGen_Proc: process
+  begin
+    -- insert signal assignments here
+
+    wait until Clk = '1';
+  end process WaveGen_Proc;
+
+  
+
+end architecture tb;
+
+-------------------------------------------------------------------------------
+
+configuration light_tb_tb_cfg of light_tb is
+  for tb
+  end for;
+end light_tb_tb_cfg;
+
+-------------------------------------------------------------------------------

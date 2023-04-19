@@ -1,0 +1,38 @@
+siebensegment.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20_modelsim10.5b/siebensegment.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20_modelsim10.5b/siebensegment.vhd(32): near "EOF": syntax error
+
+} {6.0 7.0} {}} one_digit.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20_modelsim10.5b/one_digit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20_modelsim10.5b/one_digit.vhd(54): near "EOF": syntax error
+
+} {6.0 7.0} {}} siebensegment_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20_modelsim10.5b/siebensegment_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity siebensegment_tb
+-- Compiling architecture beh of siebensegment_tb
+
+} {} {}} one_digit_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/siebensegment_sim_sose20_modelsim10.5b/one_digit_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity one_digit_tb
+-- Compiling architecture tb1 of one_digit_tb
+-- Compiling configuration one_digit_tb_tb1_cfg
+-- Loading entity one_digit_tb
+-- Loading architecture tb1 of one_digit_tb
+-- Loading package NUMERIC_STD
+-- Loading package std_iopak
+-- Loading entity one_digit_tb_hide
+
+} {} {}}

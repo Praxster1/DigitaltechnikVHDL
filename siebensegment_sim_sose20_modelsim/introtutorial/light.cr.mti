@@ -1,0 +1,23 @@
+C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/introtutorial/light_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/introtutorial/light_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity light_tb
+-- Compiling architecture tb of light_tb
+-- Compiling configuration light_tb_tb_cfg
+-- Loading entity light_tb
+-- Loading architecture tb of light_tb
+-- Loading entity light
+
+} {} {}} C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/introtutorial/light.vhd {1 {vcom -work work -2002 -explicit C:/Users/DirkRabe/Documents/FH/Lehre/Digitaltechnik/Praktikum/altera/Projects/introtutorial/light.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity light_core
+-- Compiling architecture LogicFunction of light_core
+-- Compiling entity light
+-- Compiling architecture struc of light
+
+} {} {}}
