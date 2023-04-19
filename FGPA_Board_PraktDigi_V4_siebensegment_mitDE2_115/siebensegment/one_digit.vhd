@@ -1,6 +1,4 @@
 
-library ieee;
-use ieee.std_logic_1164.all;
 
 -- insert entity for one_digit here:
 -- ports: switch_i - input  of type std_ulogic_vector(? downto 0)
@@ -49,15 +47,38 @@ use ieee.std_logic_1164.all;
 --     copy&paste rectangular text (CTRL-x, r, k + CTRL-x, r, y)
 -- 6. make sure, that all output ports are driven by VHDL signal assignments
 
-
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity one_digit is
-    
+
     port (
-        switch_i: in std_ulogic_vector()
-        
+        switch_i : in std_ulogic_vector(3 downto 0); -- 4 bits needed to access all segments
+        segm_o : out to_std_ulogic_vector(6 downto 0)
     );
 end entity;
 architecture Behavioral of one_digit is
 begin
+    map_segments : process
+    begin
+        case switch_i is
+            when "0000" => segm_o <= "0111111";
+            when "0001" => segm_o <= "0000110";
+            when "0010" => segm_o <= "1011011";
+            when "0011" => segm_o <= "1001111";
+            when "0100" => segm_o <= "1100110";
+            when "0101" => segm_o <= "1101101";
+            when "0110" => segm_o <= "1111101";
+            when "0111" => segm_o <= "0000111";
+            when "1000" => segm_o <= "1111111";
+            when "1001" => segm_o <= "1100111";
+            when "1010" => segm_o <= "1110111";
+            when "1011" => segm_o <= "1111100";
+            when "1100" => segm_o <= "0111001";
+            when "1101" => segm_o <= "1011110";
+            when "1110" => segm_o <= "1111001";
+            when "1111" => segm_o <= "1110001";
+            when others => null;
+        end case;
+    end process;
 end architecture;
