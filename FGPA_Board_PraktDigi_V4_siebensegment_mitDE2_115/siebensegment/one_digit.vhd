@@ -51,15 +51,14 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity one_digit is
-
     port (
         switch_i : in std_ulogic_vector(3 downto 0); -- 4 bits needed to access all segments
-        segm_o : out to_std_ulogic_vector(6 downto 0)
+        segm_o : out std_ulogic_vector(6 downto 0)
     );
-end entity;
-architecture Behavioral of one_digit is
+end entity one_digit;
+architecture Transfer of one_digit is
 begin
-    map_segments : process
+    map_segments : process -- (switch_i)
     begin
         case switch_i is
             when "0000" => segm_o <= "0111111";
